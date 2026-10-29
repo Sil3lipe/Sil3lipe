@@ -1,26 +1,15 @@
-<div align="center">
+![Filipe Matos Silva Banner](./Banner.png)
 
-  <img src="[https://capsule-render.vercel.app/api?type=venom&color=0:0a1118,50:12263a,100:00b4d8&height=190&section=header&text=FILIPE%20MATOS%20SILVA&fontSize=40&fontColor=00E5FF&animation=fadeIn&fontAlignY=40&desc=%7B%20SYSTEMS%20ANALYSIS%20%26%20DEVELOPMENT%20%7C%20WEB%20%26%20EMBEDDED%20IoT%20%7D&descAlignY=65&descSize=15&descColor=F4A261](https://capsule-render.vercel.app/api?type=venom&color=0:0a1118,50:12263a,100:00b4d8&height=190&section=header&text=FILIPE%20MATOS%20SILVA&fontSize=40&fontColor=00E5FF&animation=fadeIn&fontAlignY=40&desc=%7B%20SYSTEMS%20ANALYSIS%20%26%20DEVELOPMENT%20%7C%20WEB%20%26%20EMBEDDED%20IoT%20%7D&descAlignY=65&descSize=15&descColor=F4A261)" width="100%" alt="Header Banner" />
+<h1 align="center">Hi there, I'm Filipe Matos Silva! 👋</h1>
+<p align="center">
+  <b>Systems Analysis & Development (ADS) Student @ FATEC Indaiatuba | Web & Embedded IoT</b>
+</p>
 
-  <a href="[https://github.com/Sil3lipe](https://github.com/Sil3lipe)">
-    <img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&lines=const+developer+%3D+%22Filipe+Matos+Silva%22%3B;ADS+Student+%40+FATEC+Indaiatuba+%7C+Software+%26+IoT;Hardware+%26+Software+QA+Foundation+(Lenovo);Seeking+IT+%2F+Software+Development+Internship](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&lines=const+developer+%3D+%22Filipe+Matos+Silva%22%3B;ADS+Student+%40+FATEC+Indaiatuba+%7C+Software+%26+IoT;Hardware+%26+Software+QA+Foundation+(Lenovo);Seeking+IT+%2F+Software+Development+Internship)" alt="Typing SVG" />
-  </a>
-
-  <br/>
-
-  <p>
-    <a href="[https://www.linkedin.com/in/filipe-m-silva-522836253](https://www.linkedin.com/in/filipe-m-silva-522836253)" target="_blank">
-      <img src="[https://img.shields.io/badge/LINKEDIN-0D1B2A?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=1B263B](https://img.shields.io/badge/LINKEDIN-0D1B2A?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=1B263B)" alt="LinkedIn" />
-    </a>
-    <a href="mailto:filipereal222@gmail.com">
-      <img src="[https://img.shields.io/badge/EMAIL-0D1B2A?style=for-the-badge&logo=gmail&logoColor=F4A261&labelColor=1B263B](https://img.shields.io/badge/EMAIL-0D1B2A?style=for-the-badge&logo=gmail&logoColor=F4A261&labelColor=1B263B)" alt="Email" />
-    </a>
-    <a href="[https://github.com/Sil3lipe](https://github.com/Sil3lipe)" target="_blank">
-      <img src="[https://img.shields.io/badge/GITHUB-0D1B2A?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=1B263B](https://img.shields.io/badge/GITHUB-0D1B2A?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=1B263B)" alt="GitHub" />
-    </a>
-  </p>
-
-</div>
+<p align="center">
+  🔗 <a href="https://www.linkedin.com/in/filipe-m-silva-522836253" target="_blank"><b>LinkedIn Profile</b></a> &nbsp;•&nbsp;
+  📫 <a href="mailto:YOUR_EMAIL_HERE@gmail.com"><b>Send me an Email</b></a> &nbsp;•&nbsp;
+  💻 <a href="https://github.com/Sil3lipe" target="_blank"><b>GitHub (@Sil3lipe)</b></a>
+</p>
 
 ---
 
@@ -79,14 +68,6 @@ Currently working in stock operations, I actively use my day-to-day environment 
 
 ---
 
-### 📊 `// TELEMETRY: LANGUAGE_DISTRIBUTION`
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sil3lipe&layout=compact&hide_border=true&bg_color=0D1B2A&title_color=00E5FF&text_color=E0E1DD" height="165" alt="Top Languages" />
-</div>
-
----
-
 <details>
 <summary><b>🇧🇷 [ ACESSAR VERSÃO EM PORTUGUÊS // CLIQUE PARA EXPANDIR ]</b></summary>
 <br>
@@ -119,5 +100,3 @@ Minha trajetória une **vivência internacional nos EUA** (inglês avançado) co
 - **Inglês Avançado:** Fluência desenvolvida através de intercâmbio nos Estados Unidos.
 
 </details>
-
-<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:12263a,100:0a1118&height=90&section=footer](https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:12263a,100:0a1118&height=90&section=footer)" width="100%" alt="Footer Wave" />
