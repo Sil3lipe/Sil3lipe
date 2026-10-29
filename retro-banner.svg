@@ -17,6 +17,39 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+
+    <style>
+      .pulse-line-cyan {
+        stroke-dasharray: 18 160;
+        animation: flowCyan 3s linear infinite;
+      }
+      .pulse-line-gold {
+        stroke-dasharray: 18 160;
+        animation: flowGold 2.6s linear infinite;
+      }
+      @keyframes flowCyan {
+        from { stroke-dashoffset: 356; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes flowGold {
+        from { stroke-dashoffset: 356; }
+        to { stroke-dashoffset: 0; }
+      }
+      .neon-text {
+        animation: neonPulse 2.5s ease-in-out infinite alternate;
+      }
+      @keyframes neonPulse {
+        0% { opacity: 0.82; }
+        100% { opacity: 1; }
+      }
+      .float-box {
+        animation: floatAnim 3s ease-in-out infinite alternate;
+      }
+      @keyframes floatAnim {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
+      }
+    </style>
   </defs>
 
   <rect width="1200" height="320" fill="url(#bgGrad)" />
@@ -24,7 +57,10 @@
 
   <g font-family="monospace" font-size="14" fill="#b0a8c0" opacity="0.45">
     <text x="195" y="45">{ }</text>
-    <text x="35" y="140" fill="#ffcc00">[ ]</text>
+    <text x="35" y="140" fill="#ffcc00">
+      [ ]
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </text>
     <text x="480" y="65">function { ... }</text>
     <text x="460" y="105">}</text>
     <text x="860" y="32">function {</text>
@@ -38,18 +74,27 @@
     <text x="135" y="302">}</text>
   </g>
 
-  <g stroke="#442a78" stroke-width="2">
+  <g stroke="#442a78" stroke-width="2" class="float-box">
     <rect x="65" y="65" width="24" height="24" fill="#26164f" />
-    <rect x="92" y="65" width="50" height="24" fill="#00ffcc" fill-opacity="0.25" />
+    <rect x="92" y="65" width="50" height="24" fill="#00ffcc" fill-opacity="0.25">
+      <animate attributeName="fill-opacity" values="0.15;0.65;0.15" dur="2s" repeatCount="indefinite" />
+    </rect>
     <rect x="145" y="65" width="24" height="24" fill="#26164f" />
-    <rect x="80" y="95" width="24" height="24" fill="#ff007f" fill-opacity="0.3" />
-    <rect x="685" y="255" width="16" height="16" fill="#00ffcc" fill-opacity="0.6" />
+    <rect x="80" y="95" width="24" height="24" fill="#ff007f" fill-opacity="0.3">
+      <animate attributeName="fill-opacity" values="0.2;0.75;0.2" dur="1.8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="685" y="255" width="16" height="16" fill="#00ffcc" fill-opacity="0.6">
+      <animate attributeName="fill-opacity" values="0.2;0.9;0.2" dur="1.5s" repeatCount="indefinite" />
+    </rect>
     <rect x="706" y="255" width="16" height="16" fill="#26164f" />
     <rect x="727" y="255" width="16" height="16" fill="#442a78" />
-    <rect x="748" y="255" width="16" height="16" fill="#ffcc00" fill-opacity="0.8" />
+    <rect x="748" y="255" width="16" height="16" fill="#ffcc00" fill-opacity="0.8">
+      <animate attributeName="fill-opacity" values="0.3;1;0.3" dur="1.5s" begin="0.7s" repeatCount="indefinite" />
+    </rect>
   </g>
 
-  <g fill="none" stroke="#00ffcc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+  <!-- Base Static Circuit Wires (Cyan) -->
+  <g fill="none" stroke="#00ffcc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
     <path d="M 0 185 L 45 185 L 70 210 L 120 210" />
     <path d="M 0 205 L 35 205 L 65 235 L 105 235" />
     <path d="M 155 180 L 220 242 L 405 200 L 495 130 L 545 130" />
@@ -64,7 +109,16 @@
     <path d="M 700 245 L 635 245 L 585 295 L 460 295" />
   </g>
 
-  <g fill="none" stroke="#ffcc00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+  <!-- Animated Energy Pulses (Cyan) -->
+  <g fill="none" stroke="#00ffcc" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="pulse-line-cyan">
+    <path d="M 155 180 L 220 242 L 405 200 L 495 130 L 545 130" />
+    <path d="M 810 130 L 810 245" />
+    <path d="M 670 215 L 605 215 L 555 265 L 420 265" />
+    <path d="M 685 230 L 620 230 L 570 280 L 440 280" />
+  </g>
+
+  <!-- Base Static Circuit Wires (Gold) -->
+  <g fill="none" stroke="#ffcc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
     <path d="M 810 175 L 870 175 L 895 152 L 945 152 L 990 195 L 1060 195" />
     <path d="M 865 205 L 930 205 L 1005 130 L 1095 130" />
     <path d="M 1020 165 L 1075 110 L 1140 110" />
@@ -73,20 +127,44 @@
     <path d="M 1110 190 L 1155 145 L 1200 145" />
   </g>
 
+  <!-- Animated Energy Pulses (Gold) -->
+  <g fill="none" stroke="#ffcc00" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="pulse-line-gold">
+    <path d="M 810 175 L 870 175 L 895 152 L 945 152 L 990 195 L 1060 195" />
+    <path d="M 865 205 L 930 205 L 1005 130 L 1095 130" />
+    <path d="M 810 245 L 940 245 L 995 290 L 1085 290" />
+  </g>
+
+  <!-- Glowing & Pulsing Circuit Nodes -->
   <g filter="url(#glow)">
-    <circle cx="155" cy="180" r="6" fill="#00ffcc" />
+    <circle cx="155" cy="180" r="6" fill="#00ffcc">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite" />
+    </circle>
     <circle cx="220" cy="242" r="6" fill="#00ffcc" />
-    <circle cx="405" cy="200" r="6" fill="#00ffcc" />
-    <circle cx="545" cy="130" r="6" fill="#00ffcc" />
-    <circle cx="675" cy="95" r="7" fill="#00ffcc" />
+    <circle cx="405" cy="200" r="6" fill="#00ffcc">
+      <animate attributeName="r" values="5;8;5" dur="1.6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="545" cy="130" r="6" fill="#00ffcc">
+      <animate attributeName="r" values="4;9;4" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="675" cy="95" r="7" fill="#00ffcc">
+      <animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite" />
+    </circle>
     <circle cx="810" cy="130" r="6" fill="#00ffcc" />
     <circle cx="810" cy="175" r="6" fill="#00ffcc" />
-    <circle cx="810" cy="245" r="6" fill="#00ffcc" />
-    <circle cx="945" cy="152" r="6" fill="#ffcc00" />
+    <circle cx="810" cy="245" r="6" fill="#00ffcc">
+      <animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="945" cy="152" r="6" fill="#ffcc00">
+      <animate attributeName="r" values="4;8;4" dur="1.9s" repeatCount="indefinite" />
+    </circle>
     <circle cx="1075" cy="110" r="6" fill="#ffcc00" />
-    <circle cx="1140" cy="110" r="6" fill="#ffcc00" />
+    <circle cx="1140" cy="110" r="6" fill="#ffcc00">
+      <animate attributeName="r" values="4;8;4" dur="2.1s" repeatCount="indefinite" />
+    </circle>
     <circle cx="915" cy="275" r="6" fill="#00ffcc" />
-    <circle cx="65" cy="260" r="5" fill="#ff007f" />
+    <circle cx="65" cy="260" r="5" fill="#ff007f">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" />
+    </circle>
   </g>
 
   <g font-family="monospace" font-weight="bold">
@@ -98,7 +176,7 @@
     <text x="1110" y="249" font-size="24" fill="#ffcc00" text-anchor="middle" filter="url(#glow)">Frontend</text>
   </g>
 
-  <g font-family="monospace" font-weight="900">
+  <g font-family="monospace" font-weight="900" class="neon-text">
     <text x="360" y="242" font-size="34" fill="#ff007f">MySQL</text>
     <text x="357" y="239" font-size="34" fill="#00ffcc" filter="url(#glow)">MySQL</text>
     <text x="518" y="177" font-size="40" fill="#ff007f">JS</text>
@@ -111,9 +189,9 @@
     <text x="890" y="202" font-size="34" fill="#ffcc00" filter="url(#glow)">HTML</text>
   </g>
 
-  <rect x="350" y="12" width="500" height="32" fill="#160c31" stroke="#442a78" stroke-width="2" rx="4" />
+  <rect x="340" y="12" width="520" height="32" fill="#160c31" stroke="#442a78" stroke-width="2" rx="4" />
   <text x="600" y="33" font-family="monospace" font-weight="bold" font-size="15" fill="#00ffcc" text-anchor="middle" letter-spacing="2">
-    [ RETRO DEV // FILIPE MATOS SILVA ]
+    [ RETRO DEV // FILIPE MATOS SILVA ]<tspan fill="#ff007f">_<animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" /></tspan>
   </text>
 
   <rect width="1200" height="320" fill="url(#scanlines)" pointer-events="none" />
