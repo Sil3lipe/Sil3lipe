@@ -39,7 +39,7 @@ const playerOne = {
 |:--|:--|
 | **Linguagens e web** | `C` · `C++` · `JavaScript (ES6+)` · `TypeScript` · `HTML5` · `CSS3` |
 | **Embarcados e IoT** | `Arduino` · `ESP32` · `Bluetooth Low Energy (BLE)` |
-| **Qualidade e ferramentas** | `QA de Hardware/Software` · `Vitest` · `SonarQube` · `Git & GitHub` · `VS Code` |
+| **Qualidade e ferramentas** | `QA de Hardware/Software` · `Vitest` · `Git & GitHub` · `VS Code` |
 | **Estudando agora** | `Node.js` · `SQL (MySQL)` · `Python` |
 
 ---
