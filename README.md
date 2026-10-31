@@ -52,7 +52,7 @@ const playerOne = {
 - **Problema:** em estoques dinâmicos, a disposição física muda com frequência e dificulta achar setores e itens.
 - **Solução:** beacons BLE em ESP32 e um scanner com display OLED e teclado 4x4 que indica a proximidade pela intensidade do sinal (RSSI), sem depender de Wi-Fi ou internet.
 - **Resultado:** protótipo funcional, com alcance útil de cerca de 10 m em ambiente interno. Os limites do método (RSSI indica proximidade, não posição exata) estão documentados no repositório.
-- **Projeto em grupo (Projeto Integrador, ADS).** Minha parte: Desenvolvimento da parte de software e a implementação do código do sistema FINDIT.
+- **Projeto em grupo (Projeto Integrador, ADS).** Minha parte: atuei no desenvolvimento do firmware em C++ (Arduino/ESP32) em conjunto com o grupo, trabalhando na leitura do sinal BLE (RSSI), na exibição das informações no display OLED, na leitura do teclado 4x4 e na comunicação entre as duas placas.
 
 ### 💸 [Controle de Gastos](https://github.com/Sil3lipe/controle-gastos)
 `TypeScript` `Vitest`
@@ -106,7 +106,7 @@ I currently work in stock operations and treat it as a real-world lab: I observe
 ### Projects `// mission_log`
 
 **📡 [FINDIT — Proximity tracking with ESP32 and BLE](https://github.com/Sil3lipe/findit-rastreamento-esp32-ble)** (`C/C++` `Arduino` `ESP32` `BLE`)
-Team project (university capstone). Problem: items and sections are hard to locate in warehouses whose layout changes often. Solution: BLE beacons on ESP32 plus a scanner with OLED display and 4x4 keypad that indicates proximity from signal strength (RSSI), with no Wi-Fi or internet required. Result: working prototype with roughly 10 m of useful indoor range; the limits of RSSI-based estimation are documented in the repo. My part: Development of the software component and implementation of the code for the FINDIT system.
+Team project (university capstone). Problem: items and sections are hard to locate in warehouses whose layout changes often. Solution: BLE beacons on ESP32 plus a scanner with OLED display and 4x4 keypad that indicates proximity from signal strength (RSSI), with no Wi-Fi or internet required. Result: working prototype with roughly 10 m of useful indoor range; the limits of RSSI-based estimation are documented in the repo. My part: I worked on the C++ firmware (Arduino/ESP32) alongside my team, covering BLE signal reading (RSSI), OLED display output, 4x4 keypad input and communication between the two boards.
 
 **💸 [Controle de Gastos](https://github.com/Sil3lipe/controle-gastos)** (`TypeScript` `Vitest`)
 Individual expense tracker in TypeScript with per-category reports and automated tests in Vitest.
