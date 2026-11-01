@@ -108,10 +108,10 @@ I currently work in stock operations and treat it as a real-world lab: I observe
 **📡 [FINDIT — Proximity tracking with ESP32 and BLE](https://github.com/Sil3lipe/findit-rastreamento-esp32-ble)** (`C/C++` `Arduino` `ESP32` `BLE`)
 Team project (university capstone). Problem: items and sections are hard to locate in warehouses whose layout changes often. Solution: BLE beacons on ESP32 plus a scanner with OLED display and 4x4 keypad that indicates proximity from signal strength (RSSI), with no Wi-Fi or internet required. Result: working prototype with roughly 10 m of useful indoor range; the limits of RSSI-based estimation are documented in the repo. My part: I worked on the C++ firmware (Arduino/ESP32) alongside my team, covering BLE signal reading (RSSI), OLED display output, 4x4 keypad input and communication between the two boards.
 
-**💸 [Controle de Gastos](https://github.com/Sil3lipe/controle-gastos)** (`TypeScript` `Vitest`)
+**💸 [Expenses control](https://github.com/Sil3lipe/controle-gastos)** (`TypeScript` `Vitest`)
 Individual expense tracker in TypeScript with per-category reports and automated tests in Vitest.
 
-**🧮 [Calculadora Web](https://github.com/Sil3lipe/Calculadora-Web)** (`JavaScript` `HTML5` `CSS3`)
+**🧮 [Web calculator](https://github.com/Sil3lipe/Calculadora-Web)** (`JavaScript` `HTML5` `CSS3`)
 Interactive web calculator focused on clean DOM manipulation, state transitions and invalid-input handling.
 
 ### Side quest `// in_progress`
