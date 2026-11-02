@@ -359,6 +359,8 @@
 * <kbd>⚙️ Process-to-Code Translation</kbd> — A habit of analyzing physical and logistical bottlenecks and turning them into clear software requirements.
 * <kbd>🌎 Global Communication</kbd> — Advanced English, built by living and working in the United States.
 
-  <a href="#filipe-matos-silva--player_one">⬆ Voltar ao topo</a>
+  <div align="center">
+  <a href="#filipe-matos-silva--player_one">⬆ Back to the top</a>
+</div>
 
 </details>
