@@ -180,7 +180,7 @@
 
 ---
 
-## 🌐 English Version `// player_two`
+## 🌐 English Version `// player_one`
 
 <details>
 <summary><b>🇺🇸 Click here to expand the full interactive profile in English</b></summary>
