@@ -189,6 +189,8 @@
 
 <div align="center">
 
+<img src="banner2.svg" alt="Filipe Matos Silva Retro Banner (English)" />
+
 <h3>Filipe Matos Silva <code>// player_two</code></h3>
 
 <a href="https://git.io/typing-svg">
