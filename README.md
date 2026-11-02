@@ -117,7 +117,11 @@
         <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white"/>
         <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white"/>
         <img src="https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white"/>
-      </p>
+      </p><p align="center">
+  <a href="https://github.com/Sil3lipe/findit-rastreamento-esp32-ble">
+    <img src="findit-demo.jpeg" alt="Scanner FINDIT com display OLED e teclado 4x4" width="180" />
+  </a>
+</p>
       <p><b>Problema:</b> Em estoques dinâmicos, a disposição física muda com frequência e dificulta achar setores e itens.</p>
       <p><b>Solução:</b> Beacons BLE em ESP32 + scanner com display OLED e teclado 4x4 que indica a proximidade pelo sinal (RSSI) com ~10m de alcance indoor, sem depender de Wi-Fi.</p>
       <p><b>Minha parte (Projeto Integrador):</b> Desenvolvimento do firmware em C++ com o grupo (leitura RSSI, display OLED, teclado 4x4 e comunicação entre placas).</p>
@@ -306,7 +310,11 @@
         <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white"/>
         <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white"/>
         <img src="https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white"/>
-      </p>
+      </p><p align="center">
+  <a href="https://github.com/Sil3lipe/findit-rastreamento-esp32-ble">
+    <img src="findit-demo.jpeg" alt="Scanner FINDIT com display OLED e teclado 4x4" width="180" />
+  </a>
+</p>
       <p><b>Problem:</b> Items and sections are hard to locate in dynamic warehouses whose physical layout changes frequently.</p>
       <p><b>Solution:</b> ESP32 BLE beacons + a scanner with an OLED display and 4x4 keypad that indicates proximity via signal strength (RSSI) with ~10m indoor range and no Wi-Fi required.</p>
       <p><b>My role (Capstone Project):</b> C++ firmware development alongside the team (RSSI reading, OLED display output, 4x4 keypad input, and board-to-board communication).</p>
