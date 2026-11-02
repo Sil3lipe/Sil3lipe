@@ -228,9 +228,9 @@
   education: "ADS @ FATEC Indaiatuba",
   skills: [
     "Advanced English (US experience)",
-    "Hardware & Software QA"
+    "Hardware && Software QA"
   ],
-  focus: "Web Dev & Embedded IoT",
+  focus: "Web Dev && Embedded IoT",
   lookingFor: "IT / Software Dev Internship"
 };</code></pre>
     </td>
@@ -250,7 +250,7 @@
 <table align="center">
   <tr>
     <th>Area</th>
-    <th>Technologies & Tools</th>
+    <th>Technologies && Tools</th>
   </tr>
   <tr>
     <td><b>💻 Languages && Web</b></td>
