@@ -178,7 +178,7 @@
 
 ---
 
-## 🌐 English Version `// player_one`
+## 🌐 English Version `// player_two`
 
 <details>
 <summary><b>🇺🇸 Click here to expand the full interactive profile in English</b></summary>
