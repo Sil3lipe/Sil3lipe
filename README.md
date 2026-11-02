@@ -150,7 +150,9 @@
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-      </p>
+      </p><p align="center">
+  <img src="calculadora-demo.gif" alt="Demo da Calculadora Web" width="320" />
+</p>
       <p><b>Solução:</b> Aplicação web interativa construída para praticar manipulação limpa do DOM, controle de transições de estado e prevenção de entradas inválidas.</p>
       <p align="center">
         <a href="https://github.com/Sil3lipe/Calculadora-Web">
@@ -337,7 +339,9 @@
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-      </p>
+      </p><p align="center">
+  <img src="calculadora-demo.gif" alt="Demo da Calculadora Web" width="320" />
+</p>
       <p><b>Solution:</b> Interactive web calculator focused on clean DOM manipulation, state transitions, and invalid-input prevention.</p>
       <p align="center">
         <a href="https://github.com/Sil3lipe/Calculadora-Web">
