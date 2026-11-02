@@ -253,7 +253,7 @@
     <th>Technologies & Tools</th>
   </tr>
   <tr>
-    <td><b>💻 Languages & Web</b></td>
+    <td><b>💻 Languages && Web</b></td>
     <td>
       <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
       <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
@@ -264,7 +264,7 @@
     </td>
   </tr>
   <tr>
-    <td><b>🔌 Embedded & IoT</b></td>
+    <td><b>🔌 Embedded && IoT</b></td>
     <td>
       <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
       <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
@@ -272,7 +272,7 @@
     </td>
   </tr>
   <tr>
-    <td><b>🛡️ Quality & DevTools</b></td>
+    <td><b>🛡️ Quality && DevTools</b></td>
     <td>
       <img src="https://img.shields.io/badge/Hardware_&_Software_QA-2EA44F?style=flat-square" />
       <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
