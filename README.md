@@ -6,7 +6,7 @@
 
 **Estudante de ADS na Fatec Indaiatuba** · Web (JS/TS) e sistemas embarcados (ESP32) · **Buscando estágio em TI / Desenvolvimento de Software**
 
-[**[ ▶ LinkedIn ]**](https://www.linkedin.com/in/filipe-m-silva-522836253) · [**[ ▶ E-mail ]**](mailto:filipereal222@gmail.com) · [**[ ▶ GitHub ]**](https://github.com/Sil3lipe)
+[**[ ▶ LinkedIn ]**](https://www.linkedin.com/in/filipe-m-silva-522836253) · [**[ ▶ GitHub ]**](https://github.com/Sil3lipe)
 
 </div>
 
